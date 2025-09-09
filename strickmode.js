@@ -8,6 +8,7 @@ pi = 3.1416;
 console.log(pi) // hemos echo la asignacion sin la declaración 
 
 // pero si lo usamos de la siguiente manera no nos va dejar ejecutar
+
 'use strict';
 pi2 = 3.1418
 console.log(pi2) //  aki nos salda is on defined  tenemos que asignar y  declarar 
@@ -17,5 +18,4 @@ function myFunction(){
     'use strict'
     return pi = 3.14
 }
-
 console.log(myFunction) //tambien  no me va dejar imprimir 
